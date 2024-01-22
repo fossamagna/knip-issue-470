@@ -1,0 +1,22 @@
+{
+  "name": "knip-ts-node-options-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The repository to reproduce knip issue on ts-node with options",
+  "scripts": {
+    "hello": "ts-node -T scripts/hello.ts",
+    "knip": "knip"
+  },
+  "keywords": [
+    "knip",
+    "ts-node"
+  ],
+  "author": "fossamagna",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "knip": "^4.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
